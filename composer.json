@@ -1,0 +1,28 @@
+{
+    "name": "jaiprucl/co_emailattachment",
+    "description": "Mail Attachment Extension for OXID EShop",
+    "type": "oxideshop-module",
+    "minimum-stability": "dev",
+    "keywords": [
+      "oxid",
+      "modules",
+      "Email",
+      "Attachment"
+    ],
+    "homepage": "https://github.com/Jaiprucl/co_emailattachment",
+    "license": [
+      "GPL-3.0-only"
+    ],
+    "require":{
+      "composer/composer" : "^1.6",
+      "php": "^7.1"
+    },
+    "require-dev":{
+      "oxid-esales/oxideshop-ce" : ">=6.1"
+    },
+    "extra": {
+      "oxideshop": {
+        "target-directory": "co/co_emailattachment"
+      }
+    }
+  }
