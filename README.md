@@ -4,7 +4,7 @@ Mail Attachment Extension for OXID EShop.
 
 ## Installation
 ```
-composer require jaiprucl/co_emailattachment
+composer require jaiprucl/co_mailattachment
 ```
 
 ## Setup

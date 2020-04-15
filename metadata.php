@@ -21,7 +21,7 @@ $aModule = array(
     'author'       									    => 'Christopher Olhoeft',
     'email'        									    => 'c.olhoeft@gmail.com',
     'extend' => array(
-		\OxidEsales\Eshop\Core\Email::class             => 'co/co_emailattachment/Core/Email',
+		\OxidEsales\Eshop\Core\Email::class             => 'co/co_mailattachment/Core/Email',
     ),
 	'blocks' => array(
         array('template' => 'email/html/order_cust.tpl', 'block'=>'email_html_order_cust_orderemailend', 'file'=>'out/blocks/email_html_order_cust_orderemailend.tpl'),
