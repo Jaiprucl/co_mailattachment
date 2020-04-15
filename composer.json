@@ -1,5 +1,5 @@
 {
-    "name": "jaiprucl/co_emailattachment",
+    "name": "jaiprucl/co_mailattachment",
     "description": "Mail Attachment Extension for OXID EShop",
     "type": "oxideshop-module",
     "minimum-stability": "dev",
